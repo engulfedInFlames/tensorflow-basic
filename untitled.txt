@@ -1,0 +1,15 @@
+Coupon: TFLOW
+
+필요한 파이썬 패키지
+
+OpenCV(Open Source Computer Vision) - 사진과 동영상 파일을 
+로드하고 편집할 수 있는 기능들이 탑재되어 있다.
+
+import cv2
+import dlib
+import tensorflow as tf
+
+print(cv2.__verison__)
+print(dlib.__verison__)
+print(tf.__version__)
+
